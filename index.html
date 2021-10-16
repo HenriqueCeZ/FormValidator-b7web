@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="assets/financial_data.png" alt="">
+        </div>
+        <div class="rightside">
+                <h1>Crie uma conta</h1>
+
+                <form  method="POST" action="" class="b7validator">
+
+                        <label for="">
+                            Seu Nome: <br>
+                            <input data-rules="required|min=2" autofocus type="text" name="name" placeholder="Digite seu nome">
+                        </label>
+                        <label for="">
+                            Seu E-mail: <br>
+                            <input type="email" name="email" placeholder="Digite seu e-mail">
+                        </label>
+                        <label for="">
+                            Sua Senha: <br>
+                            <input type="password" name="senha" placeholder="Digite sua senha">
+                        </label>
+                        <label for="">
+                            <input type="submit"  value = "Cadastrar">
+                        </label>
+
+
+
+
+
+                </form>
+                <div>
+                    Já tem uma conta? <a href="">Faça o login</a>
+                </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
